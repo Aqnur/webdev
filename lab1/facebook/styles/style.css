@@ -1,19 +1,82 @@
 *{
 	padding: 0;
 	margin: 0;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
 }
 header{
 	width: 100%;
 	height: 82px;
   	background-color: #3b5998;
+  	display: inline-flex;
 }
-h1{
-	padding-top: 20px;
-	margin-left: 300px;
+header h1{
+	padding-top: 15px;
+	margin-left: 250px;
 }
-a{
+header a{
 	color: white;
 	text-decoration: none;
-	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
-	font-size: 50px;
+}
+.logo a{
+	
+	font-size: 40px;
+}
+.autorithation{
+	margin-left: 300px;
+	margin-top: 15px;
+}
+.autorithation a{
+	color: white;
+	opacity: 0.5;
+	font-size: 12px;
+}
+.autorithation	a:hover{
+	text-decoration: underline;
+}
+.autorith_text{
+	color: white;
+	font-size: 14px;
+}
+header table{
+	border-spacing: 25px 2px;
+}
+header button{
+	color: white;
+	background-color: #3b5998; 
+	font-size: 10px;
+	border-width: 0.5px;
+	border-radius: 5px;
+	border-color: black;
+	padding: 4px;
+	width: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+header button:hover{
+	background-color: #4569b5;
+}
+
+main{
+	display: inline-flex;
+}
+.info{
+	margin-left: 250px;
+}
+.main_text{
+	color: #0e385f;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+.pic img{
+	width: 536px; 
+	height: 194px;
+}
+
+footer{
+	float: bottom;
+	display: inline-flex;
 }
