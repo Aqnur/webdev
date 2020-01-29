@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #24292e;
+	text-align: center;
+}
+.head{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 18px;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+.head div{
+	text-align: center;
+	display: inline-flex;
+}
+.info img{
+	width: 65px;
+	height: 50px;
+}
+.sign{
+	margin-left: 300px;
+}
+ul li{
+	display: inline;
+	margin-right: 10px;
+}
+.head a{
+	color: #fff;
+}
+.head a:hover{
+	text-decoration: none;
+	color: #444d56;
+}
+main{
+	background: url(https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg),#2b3137;
+	height: 600px;
+	background-position: center 10%;
+    background-size: cover;
+}
