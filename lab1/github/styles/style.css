@@ -24,6 +24,21 @@ header{
 .sign{
 	margin-left: 300px;
 }
+.signing{
+	margin-left: 10px;
+	padding: 4px;
+}
+a.box-model{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+.search{
+	background-color:grey;
+	border-width: 0;
+	border-radius: 5px;
+	width: 200px;
+}
 ul li{
 	display: inline;
 	margin-right: 10px;
@@ -40,4 +55,44 @@ main{
 	height: 600px;
 	background-position: center 10%;
     background-size: cover;
+}
+main div{
+	display: inline-grid;
+	text-align: left;
+}
+.main-info{
+    color: #fff;
+	width: 450px;
+	font-size: 20px;
+	padding-top: 30px;
+}
+.main-info h1{
+	font-size: 60px;
+}
+.login-form{
+	background-color: #fff;
+	border: 1px solid #e6e6e6;
+	width: 440px;
+	margin: 10px;
+	margin-left: 150px;
+	padding: 30px;
+	border-radius: 5px;
+}
+.form-group input{
+	width: 380px;
+}
+button.btn-primary{
+	background-color: #2ebc4f;
+	border-color: #2ebc4f;
+	color: #fff;
+}
+button.btn-primary:hover{
+	background-color: #2ebc4f;
+	border-color: #2ebc4f;
+}
+.smth{
+	margin-top: 30px;
+}
+.some-text{
+	font-size: 10px;
 }
