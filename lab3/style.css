@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+header p{
+	margin-left: -1000px;
+	padding: 10px;
+	font-size: 30px;
+}
+main div{
+	text-align: center;
+}
+main{
+	width: 900px;
+	margin-left: 300px;
+}
+.some-text{
+	padding: 20px;
+	margin-left: -500px;
+}
+.sec-row input{
+	width: 450px;
+	font-size: 20px;
+}
+.sec-row button{
+	margin-left: 20px;
+	padding: 5px;
+	background-color: #0066ff;
+	border-radius: 5px;
+	border-style: solid #000;
+	border-width: 0.5px;
+}
+ul{
+	margin-top: 40px;
+}
+
+label
+{
+	font-family: sans-serif;
+	font-size: 1em;
+	margin-left: 10px;
+}
+li
+{
+	border: 1px solid #7e7e7e;
+	border-radius: 5px;
+	padding: 15px;
+	list-style-type: none;
+}
+#check
+{
+	float: left;
+	outline: none;
+}
+input[type='checkbox']:checked+label	
+{
+	text-decoration: line-through;
+}

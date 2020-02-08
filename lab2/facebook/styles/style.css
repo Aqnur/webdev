@@ -63,6 +63,7 @@ main{
 .main_cont{
 	display: inline-flex;
 	width: 75%;
+	height: 700px;
 }
 .main_text{
 	color: #0e385f;
@@ -80,6 +81,33 @@ main{
 
 footer{
 	float: bottom;
-	display: inline-flex;
 	text-align: center;
+}
+footer div{
+	display: flex;
+	justify-content: space-between;
+}
+footer div ul li{
+	display: inline-block;
+}
+.reg-inf{
+	font-size: 10px;
+	text-align: left;
+}
+.registration{
+	text-align: left;
+	padding-top: 10px;
+	width: 450px;
+}
+.registration input{
+	margin-top: 10px;
+	height: 20px;
+}
+.footer a:visited{
+	text-decoration: none;
+	color: blue;
+}
+.footer a{
+	text-decoration: none;
+	color: blue;
 }
