@@ -54,7 +54,7 @@
         span.className = "close";
         document.body.appendChild(span);
         li.appendChild(span);
-        
+        //deleting elements
         for (i = 0; i < close.length; i++) 
         {
             close[i].onclick = function() 
