@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/core/categories/1/products/",
+					"raw": "http://127.0.0.1:8000/api/categories/1/products/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -21,7 +21,7 @@
 					],
 					"port": "8000",
 					"path": [
-						"core",
+						"api",
 						"categories",
 						"1",
 						"products",
@@ -37,7 +37,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/core/categories/1/",
+					"raw": "http://127.0.0.1:8000/api/categories/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -47,7 +47,7 @@
 					],
 					"port": "8000",
 					"path": [
-						"core",
+						"api",
 						"categories",
 						"1",
 						""
@@ -62,7 +62,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/core/categories/",
+					"raw": "http://127.0.0.1:8000/api/categories/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -72,7 +72,7 @@
 					],
 					"port": "8000",
 					"path": [
-						"core",
+						"api",
 						"categories",
 						""
 					]
@@ -86,7 +86,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/core/products",
+					"raw": "http://127.0.0.1:8000/api/products",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -96,7 +96,7 @@
 					],
 					"port": "8000",
 					"path": [
-						"core",
+						"api",
 						"products"
 					]
 				}
@@ -109,7 +109,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/core/products/1",
+					"raw": "http://127.0.0.1:8000/api/products/1",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -119,7 +119,7 @@
 					],
 					"port": "8000",
 					"path": [
-						"core",
+						"api",
 						"products",
 						"1"
 					]
